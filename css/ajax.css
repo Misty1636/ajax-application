@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  font-family: -apple-system, "Microsoft JhengHei", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+
+.wrap {
+  height: 100vh;
+  background: url(https://www.lovefans.wedding/wp-content/uploads/2018/12/woodenlace1920x1080.jpg) no-repeat center center;
+  background-size: cover; }
+  .wrap .content {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .wrap .content .member {
+      width: 300px;
+      padding: 1.5rem;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.5); }
+      .wrap .content .member h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        color: #444444; }
+      .wrap .content .member input[type="email"], .wrap .content .member input[type="password"] {
+        outline: 0;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1.2rem;
+        -webkit-box-shadow: 0 0 5px #707070;
+        box-shadow: 0 0 5px #707070; }
+      .wrap .content .member ::-webkit-input-placeholder {
+        color: #444444;
+        letter-spacing: 1px; }
+      .wrap .content .member .other {
+        margin-bottom: 2.5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: right; }
+        .wrap .content .member .other .optional {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          .wrap .content .member .other .optional label {
+            font-size: 14px;
+            line-height: 1.3; }
+          .wrap .content .member .other .optional input[type="checkbox"] {
+            display: none; }
+          .wrap .content .member .other .optional label::before {
+            content: "";
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            background: #FFF;
+            vertical-align: top;
+            border-radius: 50%;
+            margin-right: 3px;
+            -webkit-transition: background ease .2s;
+            -o-transition: background ease .2s;
+            transition: background ease .2s; }
+          .wrap .content .member .other .optional input[type="checkbox"]:checked + label::before {
+            background: #FA7268;
+            border: 2px #FFF solid; }
+        .wrap .content .member .other a {
+          text-decoration: none;
+          font-size: 14px;
+          padding: 2px 0;
+          display: block;
+          text-shadow: 0 0 1px #FFF;
+          color: #FA7268;
+          font-weight: 700;
+          border-bottom: 1px solid transparent;
+          -webkit-transition: all .3s;
+          -o-transition: all .3s;
+          transition: all .3s; }
+          .wrap .content .member .other a:hover {
+            border-bottom: 1px solid #FA7268; }
+      .wrap .content .member .send {
+        text-align: right; }
+        .wrap .content .member .send .btn {
+          border-radius: 5px;
+          color: #FFF;
+          outline: 0;
+          cursor: pointer;
+          margin-left: auto;
+          padding: 0.5rem 2rem;
+          border: none;
+          letter-spacing: 3px;
+          background: #444444;
+          -webkit-transition: all .3s;
+          -o-transition: all .3s;
+          transition: all .3s; }
+          .wrap .content .member .send .btn:hover {
+            background: #FA7268;
+            color: #FFF; }
